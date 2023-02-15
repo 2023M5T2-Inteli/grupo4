@@ -7,17 +7,17 @@ python3 -m venv .venv
 ```
 On windows:
 ```bash
-py -m venv .env
+py -m venv .venv
 ```
 ## Then, you need to activate the venv
 Run this code in your terminal in the root of this folder, `src/embedded`.
 For mac:
 ```bash
-source env/bin/activate
+source .venv/bin/activate
 ```
 For windows:
 ```bash
-.\env\Scripts\activate
+.\.venv\Scripts\activate
 ```
 If you want to leave the venv run:
 ```bash
